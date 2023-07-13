@@ -113,7 +113,7 @@ sh tools/dist_train_detr_ssod_coco_full.sh 8
 python tools/test.py <CONFIG_FILE_PATH> <CHECKPOINT_PATH> --eval bbox
 ```
 
-We also prepare some models trained by us bellow
+We also prepare some models trained by us bellow:
 ### COCO:
 |Setting|mAP|Weights|
 |:---:|:----:|:----:|
@@ -131,3 +131,15 @@ We also prepare some models trained by us bellow
 
 [1] [End-to-End Semi-Supervised Object Detection with Soft Teacher](http://arxiv.org/abs/2106.09018)
 
+### Citation
+If you find our repo useful for your research, please cite us:
+```
+@inproceedings{zhang2023semi,
+  title={Semi-DETR: Semi-Supervised Object Detection With Detection Transformers},
+  author={Zhang, Jiacheng and Lin, Xiangru and Zhang, Wei and Wang, Kuo and Tan, Xiao and Han, Junyu and Ding, Errui and Wang, Jingdong and Li, Guanbin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23809--23818},
+  year={2023}
+}
+
+```
