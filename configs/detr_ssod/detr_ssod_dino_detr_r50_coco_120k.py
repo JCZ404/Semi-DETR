@@ -1,8 +1,8 @@
 _base_ = "base_dino_detr_ssod_coco.py"
 
 data = dict(
-    samples_per_gpu=3,
-    workers_per_gpu=3,
+    samples_per_gpu=5,
+    workers_per_gpu=5,
     train=dict(
         sup=dict(
             type="CocoDataset",
@@ -19,7 +19,7 @@ data = dict(
     ),
     sampler=dict(
         train=dict(
-            sample_ratio=[1, 2],
+            sample_ratio=[1, 4],
         )
     ),
 )
