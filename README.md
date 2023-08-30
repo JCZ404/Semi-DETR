@@ -1,7 +1,7 @@
 # Semi-DETR: Semi-Supervised Object Detection with Detection Transformers
 ![](./resources/teaser.png)
 
-This repo is the official implementation of CVPR2023 paper ["Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"](https://arxiv.org/abs/2106.09018). Semi-DETR is the first work on semi-supervised object detection designed for detection transformers.
+This repo is the official implementation of CVPR2023 paper ["Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"](https://arxiv.org/abs/2307.08095). Semi-DETR is the first work on semi-supervised object detection designed for detection transformers.
 
 ## Usage
 Our code is based on the awesome codebase provided by Soft-Teacher[1].
