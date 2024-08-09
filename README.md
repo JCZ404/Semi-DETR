@@ -2,7 +2,14 @@
 ![](./resources/teaser.png)
 
 This repo is the official implementation of CVPR2023 paper ["Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"](https://arxiv.org/abs/2307.08095). Semi-DETR is the first work on semi-supervised object detection designed for detection transformers.
-
+## Update
+- **`2024/08/09`**  We release the prepared conda environment to help run our code. You can download the environment we used from the Google Driver link: [semidetr_miniconda_cuda12.1_torch1.9.0+cu111_mmcv-full1.3.16.tar](https://drive.google.com/file/d/1XoaMtMMVW4_qUGHXEOlEnjnOUaapyWwA/view?usp=drive_link). We have already validated this environment on the Tesle A100 with the latest CUDA driver 12.1 and can run our code without annoying bugs about the environments.
+  -   **Usage**: Download this environment tar file and then put it into the `envs` directory of your anaconda/miniconda, where anaconda/miniconda manage their virtual envs. Then unzip this file, and execute `conda init` to make the env prepared. Note that sometimes you are required to modify the PYTHON interpreter path in some files under this env to make it work correctly, such as setting the PYTHON interpreter in the `semidetr/bin/pip` to your local path to make the pip work properly.
+-  **`2024/08/09`** We reshare our model weight files via Google Driver, you can download these files via the following links:
+    - [Semi-DETR COCO 1\%(Google Driver)](https://drive.google.com/file/d/1guWr-7Klvt8w16on082JUPdnsPBv8b_D/view?usp=drive_link)
+    - [Semi-DETR COCO 5\%(Google Driver)](https://drive.google.com/file/d/1R7FfkOkiR57WSleKJmHj2BitVj_xfqam/view?usp=drive_link)
+    - [Semi-DETR COCO 10\%(Google Driver)](https://drive.google.com/file/d/1gYBzI_SANfl9_HqklzWJ_hBE55Gh4wnI/view?usp=drive_link)
+   
 ## Usage
 Our code is based on the awesome codebase provided by Soft-Teacher[1].
 
