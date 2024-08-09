@@ -1,7 +1,12 @@
-# CVPR2023 Semi-DETR: Semi-Supervised Object Detection with Detection Transformers
+<div align="center">
+
+<h2>【CVPR'2023】Semi-DETR: Semi-Supervised Object Detection with Detection Transformers </h2>
+
+</div>
+
 ![](./resources/teaser.png)
 
-This repo is the official implementation of CVPR2023 paper ["Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"](https://arxiv.org/abs/2307.08095). Semi-DETR is the first work on semi-supervised object detection designed for detection transformers.
+This repo is the official implementation of CVPR'2023 paper ["Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"](https://arxiv.org/abs/2307.08095). Semi-DETR is the first work on semi-supervised object detection designed for detection transformers.
 ## Update
 - **`2024/08/09`**  We release the prepared conda environment to help run our code. You can download the environment we used from the Google Driver link: [semidetr_miniconda_cuda12.1_torch1.9.0+cu111_mmcv-full1.3.16.tar](https://drive.google.com/file/d/1XoaMtMMVW4_qUGHXEOlEnjnOUaapyWwA/view?usp=drive_link). We have already validated this environment on the Tesle A100 with the latest CUDA driver 12.1 so that you can run our code without annoying bugs about the environments.
   -   **Usage**: Download this environment tar file and then put it into the `envs` directory of your anaconda/miniconda, where anaconda/miniconda manage their virtual envs. Then unzip this file, and execute `conda init` to make the env prepared. Note that sometimes you are required to modify the PYTHON interpreter path in some files under this env to make it work correctly, such as setting the PYTHON interpreter in the `semidetr/bin/pip` to your local path to make the pip work properly.
