@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>【CVPR'2023】Semi-DETR: Semi-Supervised Object Detection with Detection Transformers </h2>
+<h2> [CVPR'2023] Semi-DETR: Semi-Supervised Object Detection with Detection Transformers </h2>
 
 </div>
 
