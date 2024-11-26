@@ -16,6 +16,8 @@ This repo is the official implementation of CVPR'2023 paper ["Semi-DETR: Semi-Su
     - [Semi-DETR COCO 10\%(Google Driver)](https://drive.google.com/file/d/1gYBzI_SANfl9_HqklzWJ_hBE55Gh4wnI/view?usp=drive_link)
     - [Semi-DETR COCO Full(Google Driver)](https://drive.google.com/file/d/17OPojkoIU7wwRcT4xNuuXONNy4zIymA4/view?usp=sharing)
     - [Semi-DETR PASCAL VOC(Google Driver)](https://drive.google.com/file/d/1oLyyrRT5GqHyo40I-4BQjnURLJFXAQ5Q/view?usp=sharing)
+  - **`2024/11/26`** We upload the supervised baseline to Google Driver as requested:
+    - [DINO-MMDet 12 epoch(Google Driver)](https://drive.google.com/file/d/12EvorMAW4PCZllctx4QphP2j8eUoJteB/view?usp=sharing)
    
 ## Usage
 Our code is based on the awesome codebase provided by Soft-Teacher[1].
